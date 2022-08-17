@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function 1statsWords {
+function statsWords {
 palabra_mas_corta=189919 #esta es la cantidad de letras que contiene la palabra más larga del mundo
 palabra_mas_larga=0
 suma_acumulada=0

@@ -1,4 +1,4 @@
-#!/bin/bash
+d#!/bin/bash
 
 source 1statsWords.sh
 source 2statsUsageWords.sh
@@ -17,7 +17,7 @@ do
 	echo "Opcion elegida: " $opcion
 
 	case $REPLY in
-	  2) 1statsWords $PATH_ARCHIVO;;
+	  2) statsWords $PATH_ARCHIVO;;
 	  3) 2statsUsageWords $PATH_ARCHIVO;;
 	  4) 3findNames $PATH_ARCHIVO;;
 	  5) 4statsSentences $PATH_ARCHIVO;;

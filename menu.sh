@@ -1,10 +1,10 @@
 #!/bin/bash
 
-source statsWords.sh
-source statsUsageWords.sh
-source findNames.sh
-source statsSentences.sh
-source blankLinesCounter.sh
+source 1statsWords.sh
+source 2statsUsageWords.sh
+source 3findNames.sh
+source 4statsSentences.sh
+source 5blankLinesCounter.sh
 
 PATH_ARCHIVO=texto.txt
 

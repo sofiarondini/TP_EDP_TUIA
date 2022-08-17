@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+function 1statsWords {
 palabra_mas_corta=189919 #esta es la cantidad de letras que contiene la palabra más larga del mundo
 palabra_mas_larga=0
 suma_acumulada=0
@@ -10,7 +10,6 @@ promedio = 0
 
 for word in $(cat $1);
     do
-             echo "entre"
           long_palabra_temp=${#word}
           if [[ $long_palabra_temp -lt  $palabra_mas_corta ]]
           then
@@ -29,4 +28,4 @@ promedio=$((suma_acumulada/cantidad_palabras))
 echo El promedio de la longitud de las palabras es $promedio
 echo  La longitud de la palabra mas larga es $palabra_mas_larga
 echo La longitud de la mas corta es $palabra_mas_corta
-
+}

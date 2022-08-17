@@ -1,12 +1,17 @@
 #!/bin/bash
 
+function 2statsUsageWOrds.sh {
 [ ! -f $1 ] && echo "Archivo inexistente, intente nuevamente" && exit 1
 
 for palabra in $(cat $1)
 do
+
+
   if [[ $(($(echo $palabra | wc -m)-1)) -ge 4 ]]
   then
     cont=0
+
+
     for word in $(cat $1)
     do
     if [[ $palabra = $word ]]
@@ -23,6 +28,10 @@ done
 #archivo que se le paso como argumento y en la segunda la palabra
 #ahora necesitamos ordenarlo de mayor a menor
 
-sort -g temp.txt >> orden.txt
-tail -10 orden.txt
-rm temp.txt
+sort -g temp.txt > orden.txt
+ cat orden.txt | uniq > ordenlisto.txt
+ sort -r ordenlisto.txt > ordenalreves.txt
+ head ordenalreves.txt
+ rm temp.txt
+
+}

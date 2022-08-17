@@ -15,8 +15,8 @@ do
 	[ -z $opcion ] && echo "Elija una opcion valida" && continue
 	[ $REPLY == 1 ] && echo "Saliendo.." && break
 	echo "Opcion elegida: " $opcion
-	
-	case $REPLY in 
+
+	case $REPLY in
 	  2) statsWords $PATH_ARCHIVO;;
 	  3) statsUsageWords $PATH_ARCHIVO;;
 	  4) findNames $PATH_ARCHIVO;;

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function 2statsUsageWOrds.sh {
+function 2statsUsageWords.sh {
 [ ! -f $1 ] && echo "Archivo inexistente, intente nuevamente" && exit 1
 
 for palabra in $(cat $1)

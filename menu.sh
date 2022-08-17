@@ -17,11 +17,11 @@ do
 	echo "Opcion elegida: " $opcion
 
 	case $REPLY in
-	  2) statsWords $PATH_ARCHIVO;;
-	  3) statsUsageWords $PATH_ARCHIVO;;
-	  4) findNames $PATH_ARCHIVO;;
-	  5) statsSentences $PATH_ARCHIVO;;
-	  6) blankLinesCounter $PATH_ARCHIVO;;
+	  2) 1statsWords $PATH_ARCHIVO;;
+	  3) 2statsUsageWords $PATH_ARCHIVO;;
+	  4) 3findNames $PATH_ARCHIVO;;
+	  5) 4statsSentences $PATH_ARCHIVO;;
+	  6) 5blankLinesCounter $PATH_ARCHIVO;;
 	esac
 done
 

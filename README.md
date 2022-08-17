@@ -7,10 +7,18 @@
 Comandos Docker
 
 - ***docker build --tag tplara:1.0 .**
+
+
 El comando build crea la imagen tp con el tag 1.0 . Luego ejecutar:
+
 - ***docker images***
+
+
 Para ver que la imagen se creó correctamente. Para ejecutar el contenedor usar el comando run:
+
 - ***docker run -it tp:1.0***
+
+
 Si todo se realizó de forma correcta, tendría que ejecutarse el script menu.sh
 
 

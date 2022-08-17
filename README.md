@@ -9,7 +9,7 @@ A partir de un archivo de texto "texto.txt" este programa tiene distintas opcion
 
 Salir del menù
 
-2. ** 1statsWords.sh:**
+2. **1statsWords.sh:**
 
 Indicador estadístico de longitud de palabras (la más corta, la más larga y el
 promedio de longitud).

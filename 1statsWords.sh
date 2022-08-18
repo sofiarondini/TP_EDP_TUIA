@@ -6,7 +6,7 @@ palabra_mas_larga=0
 suma_acumulada=0
 cantidad_palabras=0
 long_palabra_temp=0
-promedio = 0
+promedio=0
 
 for word in $(cat $1);
     do

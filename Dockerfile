@@ -11,4 +11,4 @@ ADD texto.txt .
 
 
 
-ENTRYPOINT ./menu.sh
+ENTRYPOINT ["./menu.sh", "texto.txt"]

@@ -15,7 +15,7 @@ Para poder ejecutar el menu con otro archivo se debe cambiar el nombre de tal ar
 comando: mv nombreviejo texto.txt
 
 
-##Comandos Docker##
+## Comandos Docker
 
 Estos comando se utilizan luego de clonar el repositorio
 

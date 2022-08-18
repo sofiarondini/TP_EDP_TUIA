@@ -34,6 +34,7 @@ Para ver que la imagen se creó correctamente. Para ejecutar el contenedor usar 
 
 Si todo se realizó de forma correcta, tendría que ejecutarse el script menu.sh
 
+## Opciones del menu
 
 A partir de un archivo de texto "texto.txt" este programa tiene distintas opciones:
 

@@ -4,8 +4,20 @@
 ## ENTORNO DE PROGRAMACIÓN 
 ## Autora: Lara R. Valeri
 
+## Clonar el repositorio
 
-Comandos Docker
+Para clonar el repositorio utilizar el siguiente comando:
+
+**git clone docker run https://github.com/LaraV15/TP_EDP_TUIA** 
+
+Para poder ejecutar el menu con otro archivo se debe cambiar el nombre de tal archivo a texto.txt
+
+comando: mv nombreviejo texto.txt
+
+
+##Comandos Docker##
+
+Estos comando se utilizan luego de clonar el repositorio
 
 - ***docker build --tag tplara:1.0 .***
 

@@ -8,12 +8,7 @@
 
 Para clonar el repositorio utilizar el siguiente comando:
 
-**git clone docker run https://github.com/LaraV15/TP_EDP_TUIA** 
-
-Para poder ejecutar el menu con otro archivo se debe cambiar el nombre de tal archivo a texto.txt
-
-comando: mv nombreviejo texto.txt
-
+**git clone https://github.com/LaraV15/TP_EDP_TUIA** 
 
 ## Comandos Docker
 
@@ -31,6 +26,9 @@ Para ver que la imagen se creó correctamente. Para ejecutar el contenedor usar 
 
 - ***docker run -it tplara:1.0***
 
+Si se desea utilizar otro archivo tenemos que, en vez del comando anterior, utilizar:
+
+- ***docker run -it -v (ruta del arcivho que se desea utilizar):(ruta del archivo texto.tx):ro tplara:1.0 ***
 
 Si todo se realizó de forma correcta, tendría que ejecutarse el script menu.sh
 

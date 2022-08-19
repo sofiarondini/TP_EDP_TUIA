@@ -28,7 +28,7 @@ Para ver que la imagen se creó correctamente. Para ejecutar el contenedor usar 
 
 Si se desea utilizar otro archivo tenemos que, en vez del comando anterior, utilizar:
 
-- ***docker run -it -v (ruta del arcivho que se desea utilizar):(ruta del archivo texto.tx):ro tplara:1.0 ***
+- ***docker run -it -v (ruta del arcivho que se desea utilizar):(ruta del archivo texto.tx):ro tplara:1.0***
 
 Si todo se realizó de forma correcta, tendría que ejecutarse el script menu.sh
 

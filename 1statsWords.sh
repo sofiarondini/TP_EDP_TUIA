@@ -10,7 +10,7 @@ promedio=0
 
 for word in $(cat $1);
     do
-          long_palabra_temp=${#word}
+          long_palabra_temp=${#word} #esta variable guarda la long de la plabra
           if [[ $long_palabra_temp -lt  $palabra_mas_corta ]]
           then
               palabra_mas_corta=$long_palabra_temp

@@ -24,6 +24,3 @@ do
 	  6) 5blankLinesCounter $PATH_ARCHIVO;;
 	esac
 done
-
-
-exit 0
